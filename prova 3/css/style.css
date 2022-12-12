@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #e6e6e6;
+}
+.header{
+    background-color: #fff;
+    height: 80px;
+    width: 1280px;  
+}
+.main{
+    height: 2100px;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+    width: 1280px;
+}
+.container{
+    display: grid;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Inter';
+    font-style: normal;
+}
+.nav a:hover{
+    transition: 0.5s;
+    color: rgb(4, 226, 255);
+    border-radius: 20px;
+}
+.nav1{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.nav2{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.nav3{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.titulo{
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: left;
+    padding-top: 20px;
+}
+.linha1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;   
+}
+.linha2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+.linha3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+.h1{
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.p{
+    color: #fff;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 900px;
+    padding-top: 20px;
+}   
+.flexFooter{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.flexHeader{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.flexMain{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.corFundo{
+    background-color: #e6e6e6;
+}
